@@ -8,7 +8,7 @@
 
 :root{
   --corfundo: #ABC7FF;
-  --corfundodestaque: #5686E6;
+  --corfundodestaque: #6891e2;
   --cortitulo: #0B2B6B;
   --corsubtitulo: #4d69a1;
   --letranome: Luckiest Guy;
@@ -34,62 +34,27 @@ header{
   background-color: var(--corfundodestaque);
   display: flex;
   justify-content: space-between;
-  box-shadow: 2px 2px 4px #0b2b6b79;
-}
-
-#containerhead{
-  background-color: white;
-  display: inline-block;
-  border-radius: 10px;
-  padding:10px 16px;
-  margin: 10px 1.7vw;
-  display: flex;
-  gap: 12px;
   align-items: center;
+  box-shadow: 2px 2px 4px #6891e27c;
+}
+
+#containername{
+  margin: 0px calc(2vw + 10px);
+}
+
+iframe{
+  height: 15vh;
+  margin: 0px calc(2vw + 10px);
+  width: 250px;
 }
 
 
-#sociallinks{
-  background-color: white;
-  border-radius: 10px;
-  padding:10px 16px;
-  margin: 10px 20px;
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  justify-content: center;
-}
-
-#firstsocialmedias{
-  display: flex;
-  gap:12px;
-}
-
-#secondsocialmedias{
-  display: flex;
-  gap: 12px;
-}
-
-.socialmediaimg{
-  width: 48px;
-  height: 48px;
-}
-
-.medialink{
-    border-radius: 60px;
-    display: flex;
-    
-}
 
 #name{
   font-family: var(--letranome);
   color: var(--cortitulo);
 }
 
-#image { 
-  width: 60px;
-  height: 60px; 
-}
 
 main{
   display: grid;

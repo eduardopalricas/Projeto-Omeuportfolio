@@ -17,6 +17,24 @@
 }
 
 
+body{
+  height: 100vh;
+  margin: 0px;
+}
+
+#sociallinks{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
 
 
+.socialmediaimg{
+  width: 48px;
+  height: 48px;
+}
 
+.medialink{
+  border-radius: 60px;
+}
