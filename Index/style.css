@@ -53,6 +53,7 @@ iframe{
 #name{
   font-family: var(--letranome);
   color: var(--cortitulo);
+  font-size: 40px;
 }
 
 
@@ -102,6 +103,7 @@ main{
 #apresentaciontext>h1{
   margin-bottom: 6px;
   margin-top: 16px;
+  margin-left: 26px;
 }
 
 #pageslinks{

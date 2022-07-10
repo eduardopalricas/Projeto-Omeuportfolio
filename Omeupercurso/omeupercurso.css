@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Luckiest+Guy&family=Passion+One:wght@400;700;900&family=Playfair+Display&family=Quintessential&family=Roboto:ital,wght@0,400;1,700&family=Sriracha&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,700&family=Comforter&family=Lobster&family=Luckiest+Guy&family=Passion+One:wght@400;700;900&family=Playfair+Display&family=Quintessential&family=Roboto:ital,wght@0,400;1,700&family=Sriracha&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,300&family=Alegreya:ital,wght@1,400;1,700&family=Comforter&family=Lobster&family=Luckiest+Guy&family=Passion+One:wght@400;700;900&family=Playfair+Display&family=Quintessential&family=Roboto:ital,wght@0,400;1,700&family=Sriracha&display=swap');
+
+:root{
+  --corfundo: #ABC7FF;
+  --corfundodestaque: #6891e2;
+  --cortitulo: #0B2B6B;
+  --corsubtitulo: #4d69a1;
+  --letranome: Luckiest Guy;
+  --letratitulos: Alegreya;
+  --letratexto: Alegreya Sans;
+}
+
+
+body,html{
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+
+body{
+  background-color: var(--corfundo);
+}
+
+
+header{
+  height: 15vh;
+  background-color: var(--corfundodestaque);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 4px #6891e27c;
+}
+
+
+#arrowleft{
+  width: 40px;
+  height: 40px;
+  margin-left:calc(2vw + 10px);
+  margin-right:calc(2vw + 10px);
+}
+
+
+h1{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+
+#socialmedia{
+  height: 15vh;
+  margin: 0px calc(2vw + 10px);
+  width: 250px;
+}
+
+
+#name{
+  font-family: var(--letranome);
+  color: var(--cortitulo);
+  font-size: 40px;
+}
+
+
+main{
+  height: 85vh;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 85vh;
+}
+
+#textsection{
+  grid-column: 2/3;
+  grid-row:1;
+  background-color: white;
+  padding: 0px 30px;
+  border-radius: 20px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-indent: 16px;
+}
+
+
+#textsection h1{
+  color: var(--cortitulo);
+  margin-bottom: 6px;
+  margin-left: 16px;
+  font-family: var(--letratitulos);
+  font-size: 28px;
+  }
+
+
+#textsection p{
+  font-family: var(--letratexto);
+  font-size: 17px;
+}
+
+
+#imagesection{
+  grid-row:1/2;
+  grid-column:1/2;
+  display: flex;
+  align-items: center;
+}
+
+
+#image{
+  height: calc(85vh - 32px);
+  border-radius: 20px;
+  width: calc(40vw - 48px);
+  margin-left: 16px;
+  margin-right:16px;
+}
+
+#footer{
+  display: none;
+}
+
+
+@media screen and (max-width:1300px){
+  #textsection p{
+    font-size: 16.5px;
+  }
+}
+
+
+@media screen and (max-width:1250px){
+  #textsection p{
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width:1200px){
+  #textsection p{
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (max-width:1150px){
+  #textsection p{
+    font-size: 14.5px;
+  }
+
+  #textsection h1{
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width:1130px){
+  #textsection p{
+    font-size: 14px;
+  }
+
+  #textsection h1{
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (max-width:1075px){
+  #textsection p{
+    font-size: 13.5px;
+  }
+
+  #textsection h1{
+    font-size: 23px;
+  }
+
+  #textsection{
+    margin-left: 10px;
+  }
+}
+
+
+@media screen and (max-width:1025px){
+  #textsection p{
+    font-size: 12.5px;
+  }
+
+  #textsection h1{
+    font-size: 23px;
+  }
+
+  #textsection{
+    margin-left: 6px;
+  }
+}
+
+
+@media screen and (max-width:980px){
+  #textsection p{
+    font-size: 12.3px;
+  }
+
+  #textsection h1{
+    font-size: 21px;
+  }
+
+  #textsection{
+    margin-left: 4px;
+  }
+}
+
