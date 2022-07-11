@@ -12,37 +12,7 @@ class SecundaryHeader extends HTMLElement {
   `
   const style = document.createElement('style')
   style.textContent = `
-  @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Luckiest+Guy&family=Passion+One:wght@400;700;900&family=Playfair+Display&family=Quintessential&family=Roboto:ital,wght@0,400;1,700&family=Sriracha&display=swap');
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,700&family=Comforter&family=Lobster&family=Luckiest+Guy&family=Passion+One:wght@400;700;900&family=Playfair+Display&family=Quintessential&family=Roboto:ital,wght@0,400;1,700&family=Sriracha&display=swap');
-  
-  
-  @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,300&family=Alegreya:ital,wght@1,400;1,700&family=Comforter&family=Lobster&family=Luckiest+Guy&family=Passion+One:wght@400;700;900&family=Playfair+Display&family=Quintessential&family=Roboto:ital,wght@0,400;1,700&family=Sriracha&display=swap');
-  
-  :root{
-    --corfundo: #ABC7FF;
-    --corfundodestaque: #6891e2;
-    --cortitulo: #0B2B6B;
-    --corsubtitulo: #4d69a1;
-    --letranome: Luckiest Guy;
-    --letratitulos: Alegreya;
-    --letratexto: Alegreya Sans;
-  }
-  
-  
-  body,html{
-    box-sizing: content-box;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  
-  body{
-    height: 15vh;
-  }
-  
-  
+    
   header{
     height: 15vh;
     background-color: var(--corfundodestaque);
