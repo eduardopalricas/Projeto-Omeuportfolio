@@ -47,22 +47,66 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-indent: 16px;
+  
 }
 
 
 #textsection h1{
   color: var(--cortitulo);
-  margin-bottom: 6px;
+  text-indent: 26px;
   margin-left: 16px;
   font-family: var(--letratitulos);
   font-size: 28px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  }
+
+#textsection div{
+  margin: 0px;
 }
 
 
 #textsection p{
   font-family: var(--letratexto);
-  font-size: 17px;
+  font-size: 15.5px;
+  margin-top:0px;
+  text-indent: 10px;
+  margin-bottom: 0px;
+}
+
+
+.projectlinks{
+  font-size: 18px;
+  margin-bottom:0px;
+  color: var(--cortitulo);
+}
+
+
+#textsection h3{
+  text-indent: 20px;
+  color: var(--corsubtitulo);
+  margin-bottom:4px;
+  font-size: 20px;
+}
+
+#textsection a{
+  text-decoration: none;
+  color: var(--cortitulo);
+}
+
+
+#textsection a:hover{
+  color: var(--corfundodestaque);
+}
+
+
+#textsection a:active{
+  text-decoration: underline;
+}
+
+
+#emojilink{
+  height: 16px;
 }
 
 
@@ -85,90 +129,3 @@ main{
 #footer{
   display: none;
 }
-
-
-@media screen and (max-width:1300px){
-  #textsection p{
-    font-size: 16.5px;
-  }
-}
-
-
-@media screen and (max-width:1250px){
-  #textsection p{
-    font-size: 16px;
-  }
-}
-
-
-@media screen and (max-width:1200px){
-  #textsection p{
-    font-size: 15.5px;
-  }
-}
-
-@media screen and (max-width:1150px){
-  #textsection p{
-    font-size: 14.5px;
-  }
-
-  #textsection h1{
-    font-size: 26px;
-  }
-}
-
-@media screen and (max-width:1130px){
-  #textsection p{
-    font-size: 14px;
-  }
-
-  #textsection h1{
-    font-size: 24px;
-  }
-}
-
-
-@media screen and (max-width:1075px){
-  #textsection p{
-    font-size: 13.5px;
-  }
-
-  #textsection h1{
-    font-size: 23px;
-  }
-
-  #textsection{
-    margin-left: 10px;
-  }
-}
-
-
-@media screen and (max-width:1025px){
-  #textsection p{
-    font-size: 12.5px;
-  }
-
-  #textsection h1{
-    font-size: 23px;
-  }
-
-  #textsection{
-    margin-left: 6px;
-  }
-}
-
-
-@media screen and (max-width:980px){
-  #textsection p{
-    font-size: 12.3px;
-  }
-
-  #textsection h1{
-    font-size: 21px;
-  }
-
-  #textsection{
-    margin-left: 4px;
-  }
-}
-
