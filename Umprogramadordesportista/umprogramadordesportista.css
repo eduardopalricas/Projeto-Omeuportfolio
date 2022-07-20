@@ -32,14 +32,10 @@ body{
 
 main{
   height: 85vh;
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-template-columns: 85vh;
+  display: flex;
 }
 
 #textsection{
-  grid-column: 2/3;
-  grid-row:1;
   background-color: white;
   padding: 0px 30px;
   border-radius: 20px;
@@ -67,8 +63,6 @@ main{
 
 
 #imagesection{
-  grid-row:1/2;
-  grid-column:1/2;
   display: flex;
   align-items: center;
 }
@@ -87,3 +81,73 @@ main{
 }
 
 
+@media screen and (max-width:1300px){
+  #textsection p{
+    font-size: 18px;
+  }
+
+
+  #textsection h1{
+    font-size: px;
+  }
+}
+
+
+@media screen and (max-width:1300px){
+  #textsection p{
+    font-size: 18px;
+  }
+
+
+  #textsection h1{
+    font-size: px;
+  }
+}
+
+
+@media screen and (max-width:1225px){
+  #textsection p{
+    font-size: 17px;
+  }
+
+
+  #textsection h1{
+    font-size: 29px;
+  }
+}
+
+
+@media screen and (max-width:1125px){
+  #textsection p{
+    font-size: 16px;
+  }
+
+
+  #textsection h1{
+    font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width:1035px){
+  #textsection p{
+    font-size: 15px;
+  }
+
+
+  #textsection h1{
+    font-size: 27px;
+  }
+}
+
+
+@media screen and (max-width:935px){
+  #textsection p{
+    font-size: 14px;
+  }
+
+
+  #textsection h1{
+    font-size: 26px;
+  }
+}
