@@ -59,7 +59,7 @@ iframe{
 
 main{
   display: grid;
-  grid-template-columns: 3fr 6fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 47vh 38vh;
 }
 
@@ -79,7 +79,7 @@ main{
 
 
 .image{
-  width: 30vw;
+  width: calc(33.33333vw - 32px);
   height: calc(85vh - 32px);
   border-radius: 20px;
 }

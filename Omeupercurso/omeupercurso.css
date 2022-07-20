@@ -123,39 +123,54 @@ main{
   #textsection h1{
     font-size: 23px;
   }
-
-  #textsection{
-    margin-left: 10px;
-  }
 }
 
 
-@media screen and (max-width:1025px){
+@media screen and (max-width:1036px){
   #textsection p{
-    font-size: 13px;
-  }
-
-  #textsection h1{
-    font-size: 23px;
-  }
-
-  #textsection{
-    margin-left: 6px;
-  }
-}
-
-
-@media screen and (max-width:980px){
-  #textsection p{
-    font-size: 12.5px;
+    font-size: 13.5px;
+    margin-top:6px ;
   }
 
   #textsection h1{
     font-size: 22px;
   }
+}
 
-  #textsection{
-    margin-left: 4px;
+
+@media screen and (max-width:990px){
+  #textsection p{
+    font-size: 13px;
+    margin-top:4px ;
+  }
+
+  #textsection h1{
+    font-size: 22px;
   }
 }
+
+
+@media screen and (max-width:990px){
+  #textsection p{
+    font-size: 13px;
+    margin-top:4px ;
+  }
+
+  #textsection h1{
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width:940px){
+  #textsection p{
+    font-size: 12.5px;
+    margin-top:4px ;
+  }
+
+  #textsection h1{
+    font-size: 22px;
+  }
+}
+
 
