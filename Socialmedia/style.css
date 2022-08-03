@@ -38,3 +38,8 @@ body{
 .medialink{
   border-radius: 60px;
 }
+
+a{
+  display: flex;
+  align-items: center;
+}
