@@ -65,18 +65,27 @@ main{
 #imagesection{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 
-#image{
+picture{
+  margin: 0px;
+  padding: 0px;
   height: calc(85vh - 32px);
-  border-radius: 20px;
   width: calc(40vw - 48px);
   margin-left: 16px;
   margin-right:16px;
 }
 
-#footer{
+
+.image{
+  height: calc(85vh - 32px);
+  width: calc(40vw - 48px);
+  border-radius: 20px;
+}
+
+footer{
   display: none;
 }
 
@@ -165,12 +174,105 @@ main{
 @media screen and (max-width:940px){
   #textsection p{
     font-size: 12.5px;
-    margin-top:4px ;
+    margin-top:0px ;
   }
 
   #textsection h1{
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
+
+@media screen and (max-width:910px){
+  #textsection p{
+    font-size: 12px;
+    margin-top:0px ;
+    margin-bottom: 0px;
+  }
+
+  #textsection h1{
+    font-size: 20px;
+    margin-top: 0px;
+  }
+}
+
+
+@media screen and (max-width:880px){
+  #textsection p{
+    font-size: 11.5px;
+    margin-top:0px;
+  }
+
+  #textsection h1{
+    font-size: 19px;
+    margin-top: 0px;
+  }
+}
+
+
+@media screen and (max-width:810px){
+  main{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height:1044px;
+  }
+
+
+  #imagesection{
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+  }
+
+  picture{
+    width: calc(100vw - 48px);
+    height: 456px;
+    margin: 8px 32px 16px 16px;
+  }
+
+
+  .image{
+    width: calc(100vw - 48px);
+    height: 456px;
+  }
+
+
+  #textsection{
+    height: 564px;
+    width: calc(100vw - 108px);
+    margin: 16px 32px 8px 16px;
+  }
+
+
+  #textsection h1{
+    font-size:36px;
+    margin-bottom: 16px;
+  }
+
+
+  #textsection p{
+    font-size: 17px;
+  }
+
+
+  footer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corfundodestaque);
+    box-shadow: 2px 2px 4px #6891e27c;
+  }
+
+
+  footer>iframe{
+  height: 80px;
+  }
+}
 

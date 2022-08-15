@@ -41,6 +41,12 @@ header{
 
 #containername{
   margin: 0px calc(2vw + 10px);
+
+}
+
+
+#containername>h1{
+  margin: 0px;
 }
 
 iframe{
@@ -401,22 +407,22 @@ main{
 }
 
 
-@media screen and (max-width:800px) and (orientation:portrait) {
+@media screen and (max-width:810px) and (orientation:portrait) {
   #socialmediaiframe{
     display: none;
   }
 
   header{
     justify-content: center;
-    height: 100px;
+    height: 110px;
     position: fixed;
     width: 100vw;
   }
   
 
   main{
-    padding-top: 100px;
-    grid-template-rows: 364px 480px;
+    padding-top: 110px;
+    grid-template-rows: 564px 480px;
     grid-template-columns: 50vw 50vw;
   }
 
@@ -451,14 +457,14 @@ main{
 
 
   #apresentaciontext>h1{
-    font-size: 32px;
-    margin-bottom: 12px;
+    font-size: 40px;
+    margin-bottom: 18px;
     margin-left: 30px;
   }
 
 
   #apresentaciontext>p{
-    font-size: 17.5px;
+    font-size: 21px;
   }
 
 
@@ -535,7 +541,7 @@ main{
 
   #footer{
     display: flex;
-    height: 90px;
+    height: 100px;
     justify-content: center;
     align-items: center;
     background-color: var(--corfundodestaque);
@@ -550,22 +556,22 @@ main{
 }
 
 
-@media screen and (max-width:740px) and (orientation:portrait){
+@media screen and (max-width:740px) and (orientation: portrait){
   #socialmediaiframe{
     display: none;
   }
 
   header{
     justify-content: center;
-    height: 100px;
+    height: 110px;
     position: fixed;
     width: 100vw;
   }
   
 
   main{
-    padding-top: 100px;
-    grid-template-rows: 364px 480px;
+    padding-top: 110px;
+    grid-template-rows: 564px 480px;
     grid-template-columns: 50vw 50vw;
   }
 
@@ -600,14 +606,14 @@ main{
 
 
   #apresentaciontext>h1{
-    font-size: 32px;
-    margin-bottom: 12px;
+    font-size: 38px;
+    margin-bottom: 18px;
     margin-left: 30px;
   }
 
 
   #apresentaciontext>p{
-    font-size: 17.5px;
+    font-size: 19px;
   }
 
 
@@ -684,7 +690,7 @@ main{
 
   #footer{
     display: flex;
-    height: 90px;
+    height: 100px;
     justify-content: center;
     align-items: center;
     background-color: var(--corfundodestaque);
@@ -710,12 +716,12 @@ main{
   }
 
   #apresentaciontext>h1{
-    font-size: 30px;
+    font-size:38px;
   }
 
 
   #apresentaciontext>p{
-    font-size: 17px;
+    font-size: 19px;
   }
   
 }
@@ -728,15 +734,15 @@ main{
 
   header{
     justify-content: center;
-    height: 100px;
+    height: 110px;
     position: fixed;
     width: 100vw;
   }
   
 
   main{
-    padding-top: 100px;
-    grid-template-rows: 364px 480px;
+    padding-top: 110px;
+    grid-template-rows: 564px 480px;
     grid-template-columns: 50vw 50vw;
   }
 
@@ -771,8 +777,8 @@ main{
 
 
   #apresentaciontext>h1{
-    font-size: 32px;
-    margin-bottom: 12px;
+    font-size: 38px;
+    margin-bottom: 18px;
     margin-left: 30px;
   }
 
@@ -870,7 +876,7 @@ main{
 
   
   main{
-    grid-template-rows: 364px 430px;
+    grid-template-rows: 564px 430px;
   }
 
 
@@ -917,12 +923,12 @@ main{
 
 
   #apresentaciontext p{
-    font-size: 16px;
+    font-size: 19px;
   }
 
 
   #apresentaciontext h1{
-    font-size: 27px;
+    font-size: 38px;
   }
 }
 
@@ -947,7 +953,7 @@ main{
 
 @media screen and (max-width:625px){
   main{
-    grid-template-rows: 394px 391px;
+    grid-template-rows: 564px 391px;
   }
 
 
@@ -996,12 +1002,12 @@ main{
 
 
   #apresentaciontext p{
-    font-size: 15.5px;
+    font-size: 19px;
   }
 
 
   #apresentaciontext h1{
-    font-size: 26px;
+    font-size: 38px;
   }
 
   #pageslinks{
@@ -1031,7 +1037,7 @@ main{
 
 @media screen and (max-width:575px){
   main{
-    grid-template-rows: 394px 351px;
+    grid-template-rows: 564px 351px;
   }
 
 
@@ -1080,12 +1086,12 @@ main{
 
 
   #apresentaciontext p{
-    font-size: 15.5px;
+    font-size: 19px;
   }
 
 
   #apresentaciontext h1{
-    font-size: 26px;
+    font-size: 38px;
   }
 
   #pageslinks{

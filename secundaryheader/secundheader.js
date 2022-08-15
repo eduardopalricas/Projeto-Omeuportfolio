@@ -6,7 +6,7 @@ class SecundaryHeader extends HTMLElement {
 
     shadow.innerHTML = `
     <header> 
-    <h1 id="name"><a href="../index.html"><img src="../images/arrowleft.png" alt="Imagem de uma seta para a esquerda" id="arrowleft"></a> Eduardo Cardoso</h1>
+    <h1 id="name"><a href="../index.html"><img src="../images/arrowleft.png" alt="Imagem de uma seta para a esquerda" id="arrowleft"></a> <div class="title">Eduardo Cardoso</div></h1>
     <iframe src="../Socialmedia/socialmedia.html" frameborder="0" id="socialmedia"></iframe>     
   </header>
   `
@@ -34,6 +34,7 @@ class SecundaryHeader extends HTMLElement {
   h1{
     display: flex;
     align-items: center;
+    margin:0px;
   }
   
   a{
@@ -54,7 +55,33 @@ class SecundaryHeader extends HTMLElement {
     font-family: var(--letranome);
     color: var(--cortitulo);
     font-size: 40px;
-  }`
+    margin:0px;
+  }
+  
+  @media screen and (max-width:810px){
+    .title{
+      font-size: 34px;
+    }
+
+
+    #arrowleft{
+      width: 34px;
+      height: 34px;
+  } 
+  
+  
+  @media screen and (max-width:810px){    
+    #socialmedia{
+      display: none;
+    }
+  
+    header{
+      justify-content: center;
+      height: 110px;
+      position: fixed;
+      width: 100vw;
+    }}
+  `
 
   shadow.appendChild(style)      
   }
